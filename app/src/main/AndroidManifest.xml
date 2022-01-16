@@ -8,8 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Kotlin1Hw1"
-        android:fullBackupContent="">
+        android:theme="@style/Theme.Kotlin1Hw1">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -20,8 +19,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
